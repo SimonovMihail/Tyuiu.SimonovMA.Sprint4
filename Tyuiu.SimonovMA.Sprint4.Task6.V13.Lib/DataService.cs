@@ -7,7 +7,7 @@ namespace Tyuiu.SimonovMA.Sprint4.Task6.V13.Lib
     {
         public int Calculate(string[] array)
         {
-            int count = array.Count(n => n.Length > 6);
+            int count = array.Count(n => n.Length > 4);
             return count;
         }
     }

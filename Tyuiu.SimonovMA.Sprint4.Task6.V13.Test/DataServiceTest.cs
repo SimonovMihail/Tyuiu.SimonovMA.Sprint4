@@ -13,7 +13,7 @@ namespace Tyuiu.SimonovMA.Sprint4.Task6.V13.Test
 
             string[] matrix = { "Ford", "Toyota", "Honda", "Chevrolet", "Mercedes", "BMW", "Audi" };
 
-            Assert.AreEqual(2, ds.Calculate(matrix));
+            Assert.AreEqual(4, ds.Calculate(matrix));
         }
     }
 }
